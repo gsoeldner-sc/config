@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: dcgst1-vm
+  description: Sample VM
+spec:
+  type: virtual-machine
+  owner: team-a
+  system: artist-engagement-portal

@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-resources
+  description: A collection of all VM example resources
+spec:
+  targets:
+    - ./vms/dcgst1-vm.yaml
