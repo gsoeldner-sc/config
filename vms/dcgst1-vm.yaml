@@ -6,4 +6,4 @@ metadata:
 spec:
   type: virtual-machine
   owner: team-a
-  system: artist-engagement-portal
+  system: cloudmgmt
