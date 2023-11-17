@@ -5,5 +5,5 @@ metadata:
   description: Sample VM
 spec:
   type: virtual-machine
-  owner: team-a
+  owner: guests
   system: examples
