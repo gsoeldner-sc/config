@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: "dcgst-vm-2"
+  description: Sample VM
+spec:
+  type: virtual-machine
+  owner: guests
+  system: examples

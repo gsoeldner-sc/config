@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./vms/dcgst1-vm.yaml
+    - ./vms/dcgst-vm-2.yaml
