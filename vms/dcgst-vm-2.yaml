@@ -7,3 +7,15 @@ spec:
   type: virtual-machine
   owner: guests
   system: examples
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcgst-vm-2
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  dependsOn:
+  - resource:default/dcgst-vm-2
