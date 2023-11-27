@@ -9,3 +9,4 @@ spec:
     - ./vms/dcgst-vm-2.yaml
     - ./vms/dcgst-vm-3.yaml
     - ./vms/dcgst-vm-4.yaml
+    - ./vms/dcgst-vm-5.yaml

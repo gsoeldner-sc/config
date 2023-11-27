@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: dcgst-vm-5
+  description: Sample VM
+spec:
+  type: virtual-machine
+  owner: guests
+  system: examples
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcgst-vm-5
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  dependsOn:
+  - resource:default/dcgst-vm-5
