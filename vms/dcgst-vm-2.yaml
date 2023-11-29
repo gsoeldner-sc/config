@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: "dcgst-vm-2"
+  name: abc
   description: Sample VM
 spec:
   type: virtual-machine
@@ -11,11 +11,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dcgst-vm-2
+  name: abc
 spec:
   type: service
   lifecycle: experimental
   owner: guests
   system: examples
   dependsOn:
-  - resource:default/dcgst-vm-2
+    - resource:default/dcgst-vm-2
