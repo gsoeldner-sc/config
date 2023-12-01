@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: config
+  annotations:
+    github.com/project-slug: gsoeldner-sc/config
+spec:
+  type: other
+  lifecycle: unknown
+  owner: jj
